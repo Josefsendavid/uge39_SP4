@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/Josefsendavid/uge39_SP4.svg?branch=master)](https://travis-ci.com/Josefsendavid/uge39_SP4)
+
+
 SP4-Opgave
 
 ---Tirsdag---
