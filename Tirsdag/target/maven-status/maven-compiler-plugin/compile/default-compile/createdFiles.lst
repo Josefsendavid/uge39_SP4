@@ -1,0 +1,11 @@
+dto\PersonStyleDTO_.class
+entities\Person_.class
+entities\Address.class
+entities\Address_.class
+entities\SwimStyle_.class
+entities\SwimStyle.class
+entities\Fee.class
+entities\Fee_.class
+entities\Person.class
+entities\Tester.class
+dto\PersonStyleDTO.class
