@@ -81,7 +81,7 @@ public class PersonResource {
     @Path("{id}")
     public String edit(@PathParam("id") int id, String person) throws PersonNotFoundException, MissingInputException {
         PersonDTO p = GSON.fromJson(person, PersonDTO.class);
-        Person pToEdit = new Person(p.getfName(), p.getlName(), p.getPhone());
+        PersonDTO pToEdit = new PersonDTO(p.getfName(), p.getlName(), p.getPhone(), p.getStreet(), p.getZip(), p.getCity());
         pToEdit.setId(id);
         return GSON.toJson(pToEdit);
     }
